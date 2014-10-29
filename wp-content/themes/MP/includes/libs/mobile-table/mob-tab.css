@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap{
+    width:100%;
+    overflow:hidden;
+}
+.wrap.table .content{
+    width: 100%;
+    overflow:hidden;
+}
+.wrap.table .content table{
+	width:642px
+}
+.control{
+    cursor:pointer;
+    height:100px;
+    position:absolute;
+    background-color:#ccc;
+    padding:10px;
+    opacity:.2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url('http://s291876236.onlinehome.us/arrows.png');
+	background-repeat: repeat-y;
+	width:15px;
+	z-index: 100;
+}
+.control:hover{
+    opacity:.75;   
+}
+.control.zero, .control.zero:hover{
+    opacity:0;    
+}
+
+.back{
+	
+}   
+.forward{
+    background-position: -30px 0;
+}
+.ad-thumb-list{
+    width:650px;
+}
+.ad-thumb-list li {
+    display:block; 
+    float:left;
+    width:100px;
+    height:100px;
+    margin-right:20px;
+    border:solid 1px #ccc;
+}
+.thumbs {
+    overflow:hidden;
+    height:120px;
+    width:280px;
+    margin-left: 30px;
+}   

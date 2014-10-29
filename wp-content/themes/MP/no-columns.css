@@ -1,0 +1,8 @@
+ .no-csscolumns div.column
+{
+    width: 45%;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}  
+ 

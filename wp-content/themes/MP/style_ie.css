@@ -1,0 +1,9 @@
+/*  mwc main-nav area  */
+
+.main-nav > ul > li ul,.main-nav > ul > li ul li { width:25% !important;}
+#primary-nav > ul > li > ul > li > ul {width:25% !important;} 
+#primary-nav > ul > li > .sub-menu li {width:25% !important;} 
+#primary-nav > ul > li > .sub-menu li ul {width:100% !important;} 
+#primary-nav > ul > li > .sub-menu li ul li {width:100% !important;} 
+.slider-more {display:none;}
+.slider-box:hover .slider-graph {height:270px; }

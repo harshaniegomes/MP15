@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.cookiebar{
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0 15px 0;	
+	font-size: 15px;	
+	z-index:9999;	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter: alpha(opacity=90);-moz-opacity:.9;
+-khtml-opacity: .9; opacity:.9; 
+}
+
+.cookiebar p{ max-width:980px; width:70%;margin:0 auto;	}
+
+.cookiebar a{
+	text-decoration:none;	
+}
+.continuebutton{
+	width: 26px;
+	height:25px;	
+	background:url(close_cookie_bar.png) no-repeat left top;	
+	position: absolute;
+	top: 0;
+	bottom:0;
+	margin: auto;
+	right:30px;
+	cursor:pointer;
+}
+
+.ie8 .cookiebar{
+	border-top:4px solid #b5b5b5;
+}
+
+@media only screen
+and (max-width : 520px) {
+.cookiebar p{ width:50%;} 
+}

@@ -1,0 +1,12 @@
+<svg id='image' version="1.1" xmlns="http://www.w3.org/2000/svg" height="0">
+<defs> 
+  <filter id="contrast">
+ 	<feGaussianBlur stdDeviation="1.5"/>
+ 		<feComponentTransfer>
+    	<feFuncR type="discrete" tableValues="0 .5 1 1"/>
+    	<feFuncG type="discrete" tableValues="0 .5 1"/>
+    	<feFuncB type="discrete" tableValues="0"/>
+    	</feComponentTransfer>
+  </filter>
+</defs> 
+</svg>
